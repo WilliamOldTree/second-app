@@ -4,22 +4,63 @@
 // import Botao from "./components/Botao/Botao";
 // import Contador from "./components/contador/Contador";
 // import Carro from "./components/carro/Carro";
-//import Pai from "./components/direta/Pai";
+// import Pai from "./components/direta/Pai";
 // import Familia from "./components/Familia/Familia";
 // import Membros from "./components/Familia/Membros";
 // import ParImpar from "./components/parImpar/ParImpar";
+// import UsuarioLogado from "./components/usuarioLogado/UsuarioLogado";
+// import ListaProdutos from "./components/produtos/ListaProdutos";
+//import DigiteSeuNome from "./components/controlados/DigiteSeuNome";
+import CadastroNome from "./components/classes/CadastroNome";
+
+function App(){
+      return(
+            <div>
+                  <CadastroNome/>
+            </div>
+      )
+}
+export default App;
 
 
+// function App(){
+//       return(
+//             <div> 
+//                   <DigiteSeuNome/>      
+//             </div>
+//       )
+// }
+// export default App;
 
 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+// function App(){
+//       return(
+//             <div>
+//                   <ListaProdutos/>
+//             </div>
+//       )
+// }
+// export default  App;
 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+// function App() {
+//       return (
+//             <div>
+//                   <UsuarioLogado usuario={{ nome: 'Gui', email: 'gui@gui.com' }} />
+//                   <UsuarioLogado usuario={{ nome: 'Ana' }} />
+//                   <UsuarioLogado usuario={{ email: 'carlos@empresa.com' }} />
+//                   <UsuarioLogado usuario={null} />
+//                   <UsuarioLogado usuario={{}} />
+//             </div>
+//       )
+// }
 
+// export default App;
 
-
-
-
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // function App() {
 //   return (
